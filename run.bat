@@ -1,0 +1,1 @@
+pytest -v -s .\TestCases\test_Register_functionality.py
