@@ -1,0 +1,12 @@
+name  : Testing Project
+on    :
+  push:
+    branches:
+      -QA
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        run: echo "Getting Code...."
+
